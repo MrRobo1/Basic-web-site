@@ -1,0 +1,66 @@
+body {
+    margin-right: 200px;
+    margin-left: 200px;
+    background: linear-gradient(#D5C4BD, #A99689);
+}
+nav {
+    float: right;
+}
+.navbar {
+    margin-top: 10px;
+    height: 50px;
+}
+.logo img {
+    height: 50px;
+    width: 70px;
+    float: left;
+    margin-left: -22px;
+}
+ul li {
+    display: inline-block;
+    padding: 10px;
+    font-size: 20px;
+}
+a {
+    text-decoration: none;
+    font-family: 'Bungee Spice', cursive;
+}
+section {
+    margin-top: 80px;
+}
+.titre h2{
+    font-family: 'MedievalSharp', cursive;
+    text-align: center;
+    font-size: 2.5em;
+}
+#king {
+    width: 250px;
+    height: 300px;
+}
+#princess {
+    width: 200px;
+    height: 300px;
+}
+#queen {
+    width: 200px;
+    height: 300px;
+}
+.main {
+    margin-top: 100px;
+    margin-bottom: 80px;
+    display: flex;
+    justify-content: center;
+    grid-column-gap: 260px;
+}
+.king h2 {
+    font-family: 'MedievalSharp', cursive;
+    text-align: center;
+}
+.princess h2 {
+    font-family: 'MedievalSharp', cursive;
+    text-align: center;
+}
+.queen h2 {
+    font-family: 'MedievalSharp', cursive;
+    text-align: center;
+}

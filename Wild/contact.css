@@ -1,0 +1,84 @@
+body {
+  margin-right: 200px;
+  margin-left: 200px;
+  background: linear-gradient(#D5C4BD, #A99689);
+}
+nav {
+  float: right;
+}
+.navbar {
+  margin-top: 10px;
+  height: 50px;
+}
+.logo img {
+  height: 50px;
+  width: 70px;
+  float: left;
+  margin-left: -22px;
+}
+ul li {
+  display: inline-block;
+  padding: 10px;
+  font-size: 20px;
+}
+a {
+  text-decoration: none;
+  font-family: 'Bungee Spice', cursive;
+}
+h2 {
+  font-family: 'MedievalSharp', cursive;
+  font-size: 2.5em;
+  text-align: center;
+  margin-top: 80px;
+}
+p {
+  text-align: center;
+  font-family: 'MedievalSharp', cursive;
+  font-size: 1em;
+}
+form {
+  font-family: 'MedievalSharp', cursive;
+  margin: 0 auto;
+  margin-top: 50px;
+  margin-bottom: 250px;
+  width: 400px;
+  /* Encadré pour voir les limites du formulaire */
+  padding: 1em;
+}
+form div + div {
+  margin-top: 1em;
+}
+label {
+  display: inline-block;
+  width: 90px;
+  text-align: right;
+}
+input, textarea {
+    /* Pour que tous les champs texte aient la même dimension */
+  width: 300px;
+  box-sizing: border-box;
+  
+    /* Pour harmoniser le look & feel des bordures des champs texte */
+  border: 1px solid #999;
+}
+input:focus, textarea:focus {
+  /* Pour souligner légèrement les éléments actifs */
+  border-color: #000;
+}
+textarea {
+  /* Pour aligner les champs texte multi‑ligne avec leur étiquette */
+  vertical-align: top;
+  
+  /* Pour donner assez de place pour écrire du texte */
+  height: 5em;
+}
+.button {
+  /* Pour placer le bouton à la même position que les champs texte */
+  padding-left: 90px; /* même taille que les étiquettes */
+}
+button {
+  font-family: 'MedievalSharp', cursive;
+  /* Cette marge supplémentaire représente grosso modo le même espace que celui
+  entre les étiquettes et les champs texte */
+  margin-left: .5em;
+}
